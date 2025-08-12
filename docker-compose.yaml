@@ -4,7 +4,7 @@ networks:
   default:
     driver: bridge
     name: roboshop
-    # external: true  # Uncomment if you created the network outside
+    external: true  # Uncomment if you created the network outside
 
 services:
   mongodb:
