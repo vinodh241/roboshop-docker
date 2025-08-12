@@ -46,10 +46,10 @@ services:
       - mysql
       - cart
   rabbitmq:
-    image: vinod9072/rabbitmq:3
+    image: rabbitmq:3
     container_name: rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: roboshop
       RABBITMQ_DEFAULT_PASS: roboshop123
-      
+
 
