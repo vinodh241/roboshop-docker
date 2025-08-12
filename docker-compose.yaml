@@ -2,7 +2,7 @@ networks:
   default:
     driver: bridge
     name: roboshop
-    external: true  # I created network outside so i mentioned external ture  
+    # external: true  # I created network outside so i mentioned external ture  
     
   services:
     mongodb:
