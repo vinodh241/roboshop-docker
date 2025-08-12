@@ -3,8 +3,6 @@
     driver: bridge
     name: roboshop
     external: true  # I created network outside so i mentioned external ture  
-  
-  
   services:
     mongodb:
       image: vinod9072/mongodb:v1
@@ -38,7 +36,8 @@
       depends_on:
       - mysql
       - cart
-      
+
+
     
 
 
